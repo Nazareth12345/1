@@ -25,3 +25,46 @@ a {
     background: rgb(14, 8, 14);
     height: 100vh;
 }
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-list {
+    display: flex;
+    column-gap: 30px;
+}
+.header__nav-link {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    line-height: 20px;
+}
+.header__content-title {
+    font-size: 60px;
+    color: white;
+}
+.header__content-text {
+    color: white;
+    font-size: 24px;
+}
+.header__content-btn{
+    background: white;
+    color: black;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header__content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header__top {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
